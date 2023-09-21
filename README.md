@@ -7,6 +7,6 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ### Vercel Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+Vercel Link: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
 
