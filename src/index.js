@@ -27,11 +27,11 @@ i18n
           "Welcome to React": "Bienvenue à React et react-i18next"
         }
       }
-    },
-    lng: document.querySelector('html').lang, // if you're using a language detector, do not define the lng option
+    }, // if you're using a language detector, do not define the lng option
     fallbackLng: "en",
     detection: {
       order: ['htmlTag', 'cookie', 'localStorage', 'sessionStorage' , 'path', 'subdomain'],
+      caches: ['cookie'],
     }
 
   });
