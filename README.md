@@ -7,6 +7,7 @@ Are you tired of language barriers holding you back from connecting with people 
 
 ## Vercel Deployment
 
-Vercel Link: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+Vercel Link: [https://facebook.github.io/create-react-app/docs/deployment](languages-localization-app.vercel.app
+)
 
 
