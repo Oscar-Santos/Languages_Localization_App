@@ -1,6 +1,24 @@
 import { useTranslation } from "react-i18next";
 import './App.css';
 
+const languages = [{
+  code: 'en',
+  name: 'English',
+  country_code: 'gb'
+}, {
+  code: 'fr',
+  name: 'Français',
+  country_code: 'fr'
+}, {
+  code: 'ar',
+  name: 'العربية',
+  country_code: 'sa'
+}, {
+  code: 'es',
+  name: 'Español',
+  country_code: 'es'
+}]
+
 function App() {
 
     const { t } = useTranslation();
@@ -12,15 +30,20 @@ function App() {
   return (
     <div className="container">
       <div className="d-flex justify-content-end">
-      <div class="dropdown">
+      <div className="dropdown">
   <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
     Dropdown button
   </button>
-  <ul class="dropdown-menu">
-    <li><a class="dropdown-item" href="#">Action</a></li>
-    <li><a class="dropdown-item" href="#">Another action</a></li>
-    <li><a class="dropdown-item" href="#">Something else here</a></li>
-  </ul>
+  <ul className="dropdown-menu">
+  {languages.map(({ code, name, country_code }) => (
+    <li key={country_code}>
+      <button className="dropdown-item">
+        {name}
+      </button>
+    </li>
+  ))}
+</ul>
+
 </div>
 
       </div>
